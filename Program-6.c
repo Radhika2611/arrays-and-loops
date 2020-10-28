@@ -20,22 +20,22 @@ int main()
     int i, num, evennum, oddnum;
 
     // Reads size and elements in array
-    printf("Enter how many values you want to read : ");
-    scanf("%d", &num);
+    printf("Enter the number of elements and the elements");
+    scanf("%d",&num);
     //printf("Enter %d elements in array: ", num);
-        printf("Enter the elements");
-    for(i=; i<; i)
+        //printf("Enter the elements");
+    for(i=0;i<n;i++)
     {
-        scanf("%d", &  [i]);//missing code
+        scanf("%d",&arr[i]);//missing code
     }
 
     evennum = 0; // Assuming 0 even numbers
     oddnum  = 0; // Assuming 0 odd numbers
 
-    for(i=0; i<; i++)
+    for(i=0; i<n; i++)
     {
         /* If the current element of array is evennumber then increment evennumber count */
-        if(arr[]%2 == 0) //missing code
+        if(arr[i]%2 == 0) //missing code
         {
             evennum++;
         }
@@ -44,8 +44,8 @@ int main()
             oddnum++; // increment oddnumber count
         }
 }
-printf("Total number of even numbers in the array : %d\n",  );//missing code
-printf("Total number of odd numbers in the array : %d\n",   );//missing code
-}
+printf("Total number of even numbers and odd numbers in the array are %d and %d",evennum,oddnum  );//missing code
+//printf("Total number of odd numbers in the array : %d\n",   );//missing code
+
 return(0);    
 }
