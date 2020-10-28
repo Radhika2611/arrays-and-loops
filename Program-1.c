@@ -19,21 +19,26 @@
 
 int main()
 {
-  int i,n,Sum=0,numbers;
+  int i,n,Sum=0,numbers,a[20];
   float Average;
 // Fill the code in printf()
 // Fill the code in scanf()
 
-printf("\nEnter the elements one by one\n");
+printf("Enter the number of elements and the elements");
+  scanf("%d",&numbers);
   for(i=0;i<n;++i)
    {
-     scanf("%d",&numbers);
+     scanf("%d",&a[i]);
      //write the code to calculate sum
    }
 //write the code to calculate Average 
- 
-  printf("\nSum of the %d Numbers = %d",n, Sum);
-  printf("\nAverage of the %d Numbers = %.2f",n, Average);
+   for(i=0;i<n;++i)
+   {
+     Sum=Sum+a[i];
+     //write the code to calculate sum
+   }
+  printf("Sum = %d",Sum);
+  printf("Average = %f",Average);
 
   return 0;
 }
