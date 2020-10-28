@@ -24,12 +24,12 @@ The smallest element of the array = 6*/
 int main()
 {
     int arr[100], n, i, small, large;
-    printf("Enter how many values you want to read : ");
+    printf("Enter how many values you want to read and values");
     scanf("%d", &n);
 
     for (i = 0; i < n; i++)
     {
-        printf("Enter the value of a[%d] : ",i);
+        //printf("Enter the value of a[%d] : ",i);
         scanf("%d", &arr[i]);
     }
 
@@ -38,19 +38,19 @@ int main()
 
     for (i = 1; i < n; i++)
     {
-        if (arr[i] <  )//missing code
+        if (arr[i] < small )//missing code
         {
-             = arr[ ];//missing code
+            small = arr[i];//missing code
         }
         
-        if (arr[i] >  )//missing code
+        if (arr[i] >large  )//missing code
         {
-            = arr[ ];//missing code
+            large= arr[i];//missing code
         }
     }
 
-    printf("The l argest element of the array = %d\n", large);
-    printf("The smallest element of the array = %d\n", small);
+    printf("The l argest element of the array = %d", large);
+    printf("The smallest element of the array = %d", small);
 
     return 0;
 }
