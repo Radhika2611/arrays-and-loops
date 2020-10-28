@@ -8,13 +8,15 @@
 //Note: Do use the printf() function with a newline character (\n).
 
 #include <stdio.h>
-void main() {
-	int i = 0, n;
-	printf("Enter an integer : ");
+int main() {
+	int i = 1, n;
+	printf("Enter an integer");
+	scanf("%d",&n);
  // Fill the code in scanf()
 	do {
-		printf("I Love VVCE\n");
+		printf("I Love VVCE");
+		i++:
 		// complete the statement
-	}  // complete the condition
+	} while(i<=n);
+	return(0);// complete the condition
 }
-
