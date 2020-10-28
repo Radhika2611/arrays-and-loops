@@ -15,9 +15,9 @@ Array elements in reverse order : 30 20 10*/
 	int main()
 	{
 	  int a[10],i,n;
-	  printf("Enter size of the array : ");
+	  printf("Enter size of the array and the array elements");
 	  scanf("%d",&n);
-	  printf("Enter array elements : ");
+	  
 	  for(i=0;i<n;i++)
 	  scanf("%d",&a[]);//missing code
 	  printf("Array elements in reverse order : ");
