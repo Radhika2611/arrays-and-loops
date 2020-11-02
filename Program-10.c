@@ -49,7 +49,7 @@ int main()
         }
     }
 
-    printf("The l argest element of the array = %d", large);
+    printf("The largest element of the array = %d", large);
     printf("The smallest element of the array = %d", small);
 
     return 0;
