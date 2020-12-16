@@ -1,11 +1,5 @@
-//Write a program that code accepts an integer input from the user and prints I Love VVCE by number of times as the given integer.
-
-
-//The below sample code accepts an integer input from the user and prints I Love Earth by number of times as the given integer.
-
-//Fill in the missing code so that it produces the desired output.
-
-//Note: Do use the printf() function with a newline character (\n).
+//INPUT -3
+//OUTPUT- I Love VVCE I Love VVCE I Love VVCE
 
 #include <stdio.h>
 int main() {
