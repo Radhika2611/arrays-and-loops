@@ -1,4 +1,5 @@
-//C program to print sum of odd numbers between 0 and 10
+//INPUT- 1
+//OUTPUT-25
 
 #include <stdio.h>
 int main ()
