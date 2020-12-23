@@ -8,7 +8,7 @@
  
 int main()
 {
-   int a[10],i,sum;
+   int a[10],i,sum=0;
    printf("Enter number of elements in array and the array elements");
    scanf("%d", &n);
  
